@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+header{
+    background-image: url('images/bgimg.png');
+    width: 600px;
+    height: 170px;
+    color: #FFFFFF;
+    
+}
+h1{
+    font-size: 40px;
+    padding: 36px 0 0 30px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    margin-top: 0;
+}
+.menuflex{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px #8B8B8B ;
+    font-size: 24px;
+    justify-content: space-between;
+    height: 140px;
+    padding: 10px 50px;
+}
+.innermenu{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.emoji{
+    height: 70px;
+    width: 70px;
+    margin: auto 0 ;
+}
+.dishname{
+    font-size: 17px;
+    
+    
+}
+.ingredient{
+    font-size: 16px;
+    color: #8B8B8B;
+}
+.price{
+    font-size: 17px;
+}
+.order{
+    border-radius: 50px;
+    border: 1px solid #8B8B8B;
+    color: #8B8B8B;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    opacity: 0.75;
+    margin: auto 15px auto 0; 
+}
+.orderHeadline{
+    text-align: center;
+    margin-top: 25px;
+}
+.order-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin: 0 45px 10px 45px;
+}
+.order-name{
+    width: 40px;
+}
+.delete-btn{
+    opacity: 0.5;
+    border: none;
+    align-self: flex-start;
+}
+.overline{
+    border-top: 1px solid black;
+}
+.order-btn{
+    margin: 15px auto;
+    width: 510px;
+    height: 80px;
+    color: #ffffff;
+    background: #16DB99;
+    font-size: 30px;
+    
+}
+.unordered-list-orders{
+    display: flex;
+    flex-direction: column;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 480px;
+    height: 450px;
+    background:#fff;
+}
+.modal-inner{
+    width: 85%;
+    font-size: 16px;
+    margin: auto;
+    
+}
+form{
+    text-align: center;
+    font-size: 20px;
+    margin: 25px 0px;
+    width: 100%;
+}
+input{
+    margin-top: 30px; 
+    border: 1px solid #212529;
+    padding: 20px;
+    width: 80%;
+    border-radius: 3px;
+}
+.pay-btn{
+    margin: 15px auto;
+    color: #ffffff;
+    background: #16DB99;
+    font-size: 30px;
+    width: 90%;
+    padding: 20px 0;
+}
+.hidden{
+    display: none;
+}
+.darkgreen{
+    color: #065F46;
+}
+.completed{
+    text-align: center;
+    margin-top: 50px;
+
+}
